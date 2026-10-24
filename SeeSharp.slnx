@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/SeeSharp.Api/SeeSharp.Api.csproj" />
+    <Project Path="src/SeeSharp.Client/SeeSharp.Client.csproj" />
+    <Project Path="src/SeeSharp.Shared/SeeSharp.Shared.csproj" />
+  </Folder>
+</Solution>

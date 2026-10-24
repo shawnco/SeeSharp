@@ -1,0 +1,65 @@
+# .NET build output
+**/bin/
+**/obj/
+**/out/
+artifacts/
+
+# Visual Studio and IDE files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+
+# Test and coverage output
+TestResults/
+*.coverage
+*.coveragexml
+coverage/
+
+# Local SQLite databases
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# VS Code (keep shared config)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains Rider
+.idea/
+
+# Local secrets and environment overrides
+appsettings.*.local.json
+secrets.json
+.env
+.env.*
+
+# Logs
+*.log
+logs/
+
+# Publish output
+publish/
+
+# Generated Blazor/static assets
+**/wwwroot/lib/**/node_modules/
+node_modules/
+
+# Linux editor/backup files
+*~
+*.swp
